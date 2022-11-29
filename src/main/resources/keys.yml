@@ -1,0 +1,10 @@
+eu:
+  kansi:
+    kms:
+      keys:
+        ial:
+          project: spring-cloud-kms
+          location: global
+          keyRing: spring-cloud-gcp
+          cryptoKey: key-rsa-decrypt2
+          cryptoKeyVersion: 1

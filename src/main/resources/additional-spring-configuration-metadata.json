@@ -1,0 +1,148 @@
+{
+  "properties": [
+    {
+      "name": "spring.cloud.gcp.bigquery.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Auto-configure Google Cloud BigQuery components.",
+      "defaultValue": true
+    },
+    {
+      "name": "spring.cloud.gcp.config.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Auto-configure Google Cloud Runtime components.",
+      "defaultValue": true
+    },
+    {
+      "name": "spring.cloud.gcp.datastore.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Auto-configure Google Cloud Datastore components.",
+      "defaultValue": true
+    },
+    {
+      "name": "spring.cloud.gcp.firestore.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Auto-configure Google Cloud Firestore components.",
+      "defaultValue": true
+    },
+    {
+      "name": "spring.cloud.gcp.firestore.emulator.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Enables autoconfiguration to use the Firestore emulator.",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.cloud.gcp.kms.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Auto-configure Google Cloud Key Management Service (KMS).",
+      "defaultValue": true
+    },
+    {
+      "name": "spring.cloud.gcp.logging.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Auto-configure Google Cloud Stackdriver logging for Spring MVC.",
+      "defaultValue": true
+    },
+    {
+      "name": "spring.cloud.gcp.metrics.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Auto-configure Google Cloud Monitoring for Micrometer.",
+      "defaultValue": true
+    },
+    {
+      "name": "spring.cloud.gcp.pubsub.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Auto-configure Google Cloud Pub/Sub components.",
+      "defaultValue": true
+    },
+    {
+      "name": "spring.cloud.gcp.pubsub.binder.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Auto-configure Google Cloud Pub/Sub Stream Binder components.",
+      "defaultValue": true
+    },
+    {
+      "name": "spring.cloud.gcp.pubsub.reactive.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Auto-configure Google Cloud Pub/Sub Reactive components.",
+      "defaultValue": true
+    },
+    {
+      "name": "spring.cloud.gcp.spanner.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Auto-configure Google Cloud Spanner components.",
+      "defaultValue": true
+    },
+    {
+      "name": "spring.cloud.gcp.spanner.emulator.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Enables auto-configuration to use the Spanner emulator.",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.cloud.gcp.sql.jdbc.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Enables auto-configuration for JDBC support in Google Cloud SQL.",
+      "defaultValue": true
+    },
+    {
+      "name": "spring.cloud.gcp.sql.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Auto-configure Google Cloud SQL support components.",
+      "defaultValue": true
+    },
+    {
+      "name": "spring.cloud.gcp.sql.r2dbc.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Enables auto-configuration for R2DBC support in Google Cloud SQL.",
+      "defaultValue": true
+    },
+    {
+      "name": "spring.cloud.gcp.secretmanager.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Auto-configure GCP Secret Manager support components.",
+      "defaultValue": true
+    },
+    {
+      "name": "spring.cloud.gcp.trace.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Auto-configure Google Cloud Stackdriver tracing components.",
+      "defaultValue": true
+    },
+    {
+      "name": "spring.cloud.gcp.trace.pubsub.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Auto-configure trace instrumentation of Pub/Sub components.",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.cloud.gcp.storage.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Auto-configure Google Cloud Storage components.",
+      "defaultValue": true
+    },
+    {
+      "name": "spring.cloud.gcp.security.iap.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Auto-configure Google Cloud IAP identity extraction components.",
+      "defaultValue": true
+    },
+    {
+      "name": "spring.cloud.gcp.vision.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Auto-configure Google Cloud Vision components.",
+      "defaultValue": true
+    },
+    {
+      "name": "spring.cloud.gcp.core.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Auto-configure Google Cloud Core components.",
+      "defaultValue": true
+    },
+    {
+      "name": "management.health.pubsub.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Whether to enable the Pub/Sub health indicator when used with Spring Boot Actuator.",
+      "defaultValue": true
+    }
+  ]
+}
